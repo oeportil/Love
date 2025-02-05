@@ -26,6 +26,9 @@ const Root = () => {
                         <Link className={`link ${pathname == "/curiosidades" ? "active" : "" }`} to={"/curiosidades"}>
                             <p>Curiosidades</p>
                         </Link>
+                        <Link className={`link newLink ${pathname == "/san-valentin" ? "active" : "" }`} to={"/san-valentin"}>
+                            <p>San Valentin <span className="newNoti">new</span></p>
+                        </Link>
                     </nav>
             </div>
         </header>

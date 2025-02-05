@@ -9,6 +9,7 @@ import Principal from './Principal'
 import AboutUs from './AboutUs'
 import Songs from './Songs'
 import Somethings from './Somethings'
+import SanValentin from './SanValentin'
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/curiosidades",
         element: <Somethings/>
+      },
+      {
+        path: "/san-valentin",
+        element: <SanValentin/>
       }
     ]
   }
